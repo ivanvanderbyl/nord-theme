@@ -1,0 +1,53 @@
+main.content.main {
+  article {
+    header {
+      overflow: visible;
+
+      padding: 3em 0 1em;
+
+      .blog-title {
+        margin: 0;
+        line-height: 63px;
+        padding-left: 0;
+        text-transform: uppercase;
+        font-size: 0.8em;
+      }
+
+      a.blog-logo {
+        position: absolute;
+        left: -76px;
+
+        img {
+          width: 56px;
+        }
+
+        @media screen and (max-width: $break-small) {
+          margin: 0 auto;
+          display: inline-block;
+
+          img {
+            width: 42px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .post-content, .post-title, .post-header {
+    // width: auto;
+    // max-width: 570px;
+    // margin: 0 auto;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 38px;
+
+    @media screen and (max-width: $break-small) {
+      font-size: 24px;
+      line-height: 1.1em;
+    }
+  }
+}
+

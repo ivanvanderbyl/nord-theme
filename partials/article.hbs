@@ -1,0 +1,15 @@
+<article class="{{post_class}} {{#if @first}}first-post{{/if}}">
+  <header class="post-header">
+    <span class="post-meta">
+      <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="Do MMM, YYYY"}}</time>
+      <span class="tags">{{tags}}</span>
+    </span>
+    <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+
+  </header>
+  <section class="post-excerpt">
+    <p>{{excerpt}}&hellip;</p>
+  </section>
+
+  <a href="{{url}}" class="read-more">Continue reading <span class="icon icon-chevron-right"></span></a>
+</article>

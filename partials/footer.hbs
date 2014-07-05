@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <a href="{{@blog.url}}" class="tagline"><span class="author">{{@blog.title}}</span> {{@blog.description}}</a>
+
+  <div class="social">
+    <a href="https://twitter.com/ivanvanderbyl"><span class="icon icon-twitter"></span>@IvanVanderbyl</a>
+    <a href="https://github.com/ivanvanderbyl"><span class="icon icon-github"></span>ivanvanderbyl</a>
+    <a class="subscribe" href="{{@blog.url}}/rss/"><span class="icon icon-rss"></span><span class="tooltip">Subscribe!</span></a>
+  </div>
+
+  <div class="inner">
+     <section class="copyright">
+      &copy; {{date format="YYYY"}} {{@blog.title}} &bull; All rights reserved.</section>
+  </div>
+</footer>
