@@ -1,4 +1,12 @@
 {
-  "name": "Casper",
-  "version": "0.9.3"
+  "name": "Nord",
+  "version": "0.1.0",
+  "devDependencies": {
+    "colors": "^0.6.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^0.9.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }
