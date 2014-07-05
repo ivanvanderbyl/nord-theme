@@ -49,5 +49,11 @@ main.content.main {
       line-height: 1.1em;
     }
   }
+
+  p {
+    &:first-of-type {
+      font-size: 1.15em;
+    }
+  }
 }
 
