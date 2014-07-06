@@ -74,6 +74,7 @@ a {
   color: #4a4a4a;
   @include transition(color ease 0.3s, background-color ease 0.3s);
   text-decoration: none;
+  border-bottom: 1px solid #E5E5E5;
 
   span {
     @include transition(color ease 0.3s, border-color ease 0.3s);
@@ -81,7 +82,8 @@ a {
 }
 
 a:hover {
-  color: #57A3E8;
+  color: $primary-accent-color;
+  border-bottom-color: $primary-accent-color;
 }
 
 hr {
